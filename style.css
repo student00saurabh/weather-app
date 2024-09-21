@@ -22,7 +22,7 @@
 /* for mobile */
 @media (max-width: 390px){
     .box1{
-		height: 98vh;
+		height: 100vh;
 		width: 94%;
 		border: 2px solid black;
 		box-shadow: 0px 2px 16px black;
