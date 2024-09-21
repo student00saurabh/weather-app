@@ -2,7 +2,7 @@
 	font-family: 'Times New Roman', Times, serif;
 }
 .main{
-		height: fit-content;
+		height: 100vh;
 		width: 100%;
 		display: grid;
 		text-align: center;
@@ -22,7 +22,7 @@
 /* for mobile */
 @media (max-width: 390px){
     .box1{
-		height: 100vh;
+		height: 98vh;
 		width: 94%;
 		border: 2px solid black;
 		box-shadow: 0px 2px 16px black;
@@ -31,14 +31,14 @@
 		padding: 10px;
 	}
 	input{
-		font-size: 1.2rem;
+		font-size: 1rem;
 		color: black;
 		border: 1px solid black;
 		border-radius: 5px;
 		padding: 3px;
 	}
 	button{
-		font-size: 1.2rem;
+		font-size: 1rem;
 		color: black;
 		border: 1px solid black;
 		border-radius: 5px;
