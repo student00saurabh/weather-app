@@ -67,7 +67,7 @@ let url = "https://goweather.herokuapp.com/weather/";
 async function getWeather(city) {
   try {
     let res = await axios.get(url + city);
-     inp.value = "";
+     inp.value = " ";
     return res.data;
   } catch (e) {
     console.log("Error: ", e);
