@@ -35,14 +35,14 @@
 		color: black;
 		border: 1px solid black;
 		border-radius: 5px;
-		padding: 5px;
+		padding: 3px;
 	}
 	button{
 		font-size: 1.2rem;
 		color: black;
 		border: 1px solid black;
 		border-radius: 5px;
-		padding: 5px;
+		padding: 3px;
 	}
 	button:hover{
 		color: white;
