@@ -9,7 +9,7 @@ btn.addEventListener("click", async () => {
   let weatherData = await getWeather(city);
   todayData(weatherData);
   forecastData(weatherData);
-  inp.innertext = "";
+  inp.value = "";
 });
 
 function todayData(weatherData) {
