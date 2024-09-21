@@ -9,7 +9,6 @@ btn.addEventListener("click", async () => {
   let weatherData = await getWeather(city);
   todayData(weatherData);
   forecastData(weatherData);
-  inp.value = "";
 });
 
 function todayData(weatherData) {
@@ -68,6 +67,7 @@ let url = "https://goweather.herokuapp.com/weather/";
 async function getWeather(city) {
   try {
     let res = await axios.get(url + city);
+     inp.value = "";
     return res.data;
   } catch (e) {
     console.log("Error: ", e);
