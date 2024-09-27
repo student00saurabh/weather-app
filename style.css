@@ -29,20 +29,22 @@
 		border-radius: 10px;
 		background-color: gray;
 		padding: 10px;
+		background-image: url("abcd.avif");
+		background-size: cover;
 	}
 	input{
-		font-size: 0.8rem;
+		font-size: 1.2rem;
 		color: black;
 		border: 1px solid black;
 		border-radius: 5px;
-		padding: 3px;
+		padding: 5px;
 	}
 	button{
-		font-size: 0.8rem;
+		font-size: 1.2rem;
 		color: black;
 		border: 1px solid black;
 		border-radius: 5px;
-		padding: 3px;
+		padding: 5px;
 	}
 	button:hover{
 		color: white;
@@ -75,6 +77,8 @@
 		border-radius: 20px;
 		background-color: gray;
 		padding: 20px;
+		background-image: url("abcd.avif");
+		background-size: cover;
 	}
 
 	input{
